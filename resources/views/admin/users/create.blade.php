@@ -23,7 +23,7 @@
 
 <div class="form-group">
     {!! Form::label('file', 'Photo:') !!}
-    {!! Form::file('photo_id', array(1 => 'Active', 0 => 'Not Active'), 0, ['class' => 'form-control'])!!}
+    {!! Form::file('photo_id', null,['class' => 'form-control'])!!}
 </div>
 
 <div class="form-group">
